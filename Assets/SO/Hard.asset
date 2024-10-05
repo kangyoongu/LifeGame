@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fbba97554f5c1146bd6c5643897379a, type: 3}
+  m_Name: Hard
+  m_EditorClassIdentifier: 
+  dificult:
+    bigObstaDelay: 2.7
+    smallObstaDelay: 1.2
+    bigObstaMinD: 1.3
+    smallObstaMinD: 0.5
+    bigObstaSpeed: 4
+    smallObstaSpeed: 9
+    bigObstaScale: 12
+    smallObstaScale: 3.5
+  Tdificult:
+    delayTime: 0.03
+    minD: 0.02
+    scale: 1.5
+    speed: 50
+    maxS: 30
+    distinct: 5
+    safezoneSpeed: 0.25
+  Thdificult:
+    Count: 14
+    ObstacleSpeed: 5
+    PlusSpeed: 5
+  Fdificult:
+    delayTime: 0.7
+    minDelay: 0.5
+    speed: 15
+    plusS: 10
+  Fidificult:
+    delayTime: 0.7
+    minD: 0.4
+    speed: 45
+    maxS: 25
+  talkNum: 10

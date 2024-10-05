@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fbba97554f5c1146bd6c5643897379a, type: 3}
+  m_Name: Easy
+  m_EditorClassIdentifier: 
+  dificult:
+    bigObstaDelay: 5
+    smallObstaDelay: 2.5
+    bigObstaMinD: 3
+    smallObstaMinD: 2
+    bigObstaSpeed: 3
+    smallObstaSpeed: 7
+    bigObstaScale: 11
+    smallObstaScale: 2.5
+  Tdificult:
+    delayTime: 0.03
+    minD: 0.02
+    scale: 1
+    speed: 20
+    maxS: 20
+    distinct: 5
+    safezoneSpeed: 0.28
+  Thdificult:
+    Count: 10
+    ObstacleSpeed: 3
+    PlusSpeed: 5
+  Fdificult:
+    delayTime: 0.8
+    minDelay: 0.4
+    speed: 10
+    plusS: 7
+  Fidificult:
+    delayTime: 1
+    minD: 0.4
+    speed: 40
+    maxS: 20
+  talkNum: 15

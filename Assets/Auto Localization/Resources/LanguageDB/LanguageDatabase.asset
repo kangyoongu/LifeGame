@@ -1,0 +1,387 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d90f49da3fc3475d8fa39cba04e0789, type: 3}
+  m_Name: LanguageDatabase
+  m_EditorClassIdentifier: 
+  database:
+  - word: close
+    wordTranslation:
+    - country: 1
+      meaning: "\u5173\u95ED"
+    - country: 3
+      meaning: close
+    - country: 5
+      meaning: fermer
+    - country: 6
+      meaning: "schlie\xDFen"
+    - country: 9
+      meaning: vicino
+    - country: 11
+      meaning: fechar
+    - country: 12
+      meaning: "\u0437\u0430\u043A\u0440\u044B\u0432\u0430\u0442\u044C"
+    - country: 13
+      meaning: cerca
+    - country: 14
+      meaning: "kapal\u0131"
+  - word: hint
+    wordTranslation:
+    - country: 1
+      meaning: "\u6697\u793A"
+    - country: 3
+      meaning: hint
+    - country: 5
+      meaning: indice
+    - country: 6
+      meaning: Hinweis
+    - country: 9
+      meaning: suggerimento
+    - country: 11
+      meaning: dica
+    - country: 12
+      meaning: "\u043D\u0430\u043C\u0435\u043A\u0430\u0442\u044C"
+    - country: 13
+      meaning: pista
+    - country: 14
+      meaning: ipucu
+  - word: more detailed hints
+    wordTranslation:
+    - country: 1
+      meaning: "\u66F4\u8BE6\u7EC6\u7684\u63D0\u793A"
+    - country: 3
+      meaning: more detailed hints
+    - country: 5
+      meaning: "des conseils plus d\xE9taill\xE9s"
+    - country: 6
+      meaning: detailliertere hinweise
+    - country: 9
+      meaning: "suggerimenti pi\xF9 dettagliati"
+    - country: 11
+      meaning: dicas mais detalhadas
+    - country: 12
+      meaning: "\u0431\u043E\u043B\u0435\u0435 \u043F\u043E\u0434\u0440\u043E\u0431\u043D\u044B\u0435
+        \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0438"
+    - country: 13
+      meaning: "sugerencias m\xE1s detalladas"
+    - country: 14
+      meaning: "daha ayr\u0131nt\u0131l\u0131 ipu\xE7lar\u0131"
+  - word: setting
+    wordTranslation:
+    - country: 1
+      meaning: "\u73AF\u5883"
+    - country: 3
+      meaning: setting
+    - country: 5
+      meaning: "param\xE8tre"
+    - country: 6
+      meaning: Einstellung
+    - country: 9
+      meaning: collocamento
+    - country: 11
+      meaning: contexto
+    - country: 12
+      meaning: "\u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440"
+    - country: 13
+      meaning: "configuraci\xF3n"
+    - country: 14
+      meaning: ayar
+  - word: start
+    wordTranslation:
+    - country: 1
+      meaning: "\u5F00\u59CB"
+    - country: 3
+      meaning: start
+    - country: 5
+      meaning: commencer
+    - country: 6
+      meaning: Start
+    - country: 9
+      meaning: inizio
+    - country: 11
+      meaning: "come\xE7ar"
+    - country: 12
+      meaning: "\u043D\u0430\u0447\u0438\u043D\u0430\u0442\u044C"
+    - country: 13
+      meaning: comenzar
+    - country: 14
+      meaning: "ba\u015Flang\u0131\xE7"
+  - word: ending
+    wordTranslation:
+    - country: 1
+      meaning: "\u7ED3\u5C3E"
+    - country: 3
+      meaning: ending
+    - country: 5
+      meaning: fin
+    - country: 6
+      meaning: Ende
+    - country: 9
+      meaning: fine
+    - country: 11
+      meaning: final
+    - country: 12
+      meaning: "\u043E\u043A\u043E\u043D\u0447\u0430\u043D\u0438\u0435"
+    - country: 13
+      meaning: finalizando
+    - country: 14
+      meaning: bitirme
+  - word: sound effect
+    wordTranslation:
+    - country: 1
+      meaning: "\u97F3\u6548"
+    - country: 3
+      meaning: sound effect
+    - country: 5
+      meaning: effet sonore
+    - country: 6
+      meaning: Sound-Effekt
+    - country: 9
+      meaning: effetto sonoro
+    - country: 11
+      meaning: efeito sonoro
+    - country: 12
+      meaning: "\u0437\u0432\u0443\u043A\u043E\u0432\u043E\u0439 \u044D\u0444\u0444\u0435\u043A\u0442"
+    - country: 13
+      meaning: efecto de sonido
+    - country: 14
+      meaning: ses efekti
+  - word: credits
+    wordTranslation:
+    - country: 1
+      meaning: "\u5B66\u5206"
+    - country: 3
+      meaning: credits
+    - country: 5
+      meaning: "cr\xE9dits"
+    - country: 6
+      meaning: Credits
+    - country: 9
+      meaning: crediti
+    - country: 11
+      meaning: "cr\xE9ditos"
+    - country: 12
+      meaning: "\u043A\u0440\u0435\u0434\u0438\u0442\u044B"
+    - country: 13
+      meaning: "cr\xE9ditos"
+    - country: 14
+      meaning: kredi
+  - word: exit
+    wordTranslation:
+    - country: 1
+      meaning: "\u51FA\u53E3"
+    - country: 3
+      meaning: exit
+    - country: 5
+      meaning: sortie
+    - country: 6
+      meaning: Ausfahrt
+    - country: 9
+      meaning: Uscita
+    - country: 11
+      meaning: "sa\xEDda"
+    - country: 12
+      meaning: "\u0412\u044B\u0445\u043E\u0434"
+    - country: 13
+      meaning: salida
+    - country: 14
+      meaning: "\xE7\u0131k\u0131\u015F"
+  - word: a kind person who speaks kind words easily
+    wordTranslation:
+    - country: 1
+      meaning: "\u5BB9\u6613\u8BF4\u597D\u8BDD\u7684\u5584\u826F\u7684\u4EBA"
+    - country: 3
+      meaning: a kind person who speaks kind words easily
+    - country: 5
+      meaning: une personne gentille qui prononce facilement des mots gentils
+    - country: 6
+      meaning: eine freundliche Person, die leicht freundliche Worte spricht
+    - country: 9
+      meaning: una persona gentile che pronuncia facilmente parole gentili
+    - country: 11
+      meaning: uma pessoa gentil que fala palavras gentis com facilidade
+    - country: 12
+      meaning: "\u0434\u043E\u0431\u0440\u044B\u0439 \u0447\u0435\u043B\u043E\u0432\u0435\u043A,
+        \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u043B\u0435\u0433\u043A\u043E
+        \u0433\u043E\u0432\u043E\u0440\u0438\u0442 \u0434\u043E\u0431\u0440\u044B\u0435
+        \u0441\u043B\u043E\u0432\u0430"
+    - country: 13
+      meaning: una persona amable que habla palabras amables con facilidad
+    - country: 14
+      meaning: "Kolayca nazik s\xF6zler s\xF6yleyen nazik bir insan"
+  - word: rainbow character on
+    wordTranslation:
+    - country: 1
+      meaning: "\u5F69\u8679\u5B57\u7B26\u4E0A"
+    - country: 3
+      meaning: rainbow character on
+  - word: an unkind person who finds it difficult to say nice things
+    wordTranslation:
+    - country: 1
+      meaning: "\u4E00\u4E2A\u4E0D\u53CB\u5584\u7684\u4EBA\uFF0C\u5F88\u96BE\u8BF4\u597D\u8BDD"
+    - country: 3
+      meaning: an unkind person who finds it difficult to say nice things
+    - country: 5
+      meaning: "une personne m\xE9chante qui a du mal \xE0 dire de belles choses"
+    - country: 6
+      meaning: "ein unfreundlicher Mensch, dem es schwerf\xE4llt, nette Dinge zu
+        sagen"
+    - country: 9
+      meaning: una persona scortese che trova difficile dire cose carine
+    - country: 11
+      meaning: "uma pessoa cruel que acha dif\xEDcil dizer coisas boas"
+    - country: 12
+      meaning: "\u043D\u0435\u0434\u043E\u0431\u0440\u044B\u0439 \u0447\u0435\u043B\u043E\u0432\u0435\u043A,
+        \u043A\u043E\u0442\u043E\u0440\u043E\u043C\u0443 \u0442\u0440\u0443\u0434\u043D\u043E
+        \u0433\u043E\u0432\u043E\u0440\u0438\u0442\u044C \u043F\u0440\u0438\u044F\u0442\u043D\u044B\u0435
+        \u0432\u0435\u0449\u0438"
+    - country: 13
+      meaning: "una persona desagradable a la que le resulta dif\xEDcil decir cosas
+        agradables"
+    - country: 14
+      meaning: "g\xFCzel \u015Feyler s\xF6ylemekte zorlanan kaba bir insan"
+  - word: normal person
+    wordTranslation:
+    - country: 1
+      meaning: "\u6B63\u5E38\u4EBA"
+    - country: 3
+      meaning: normal person
+    - country: 5
+      meaning: personne normale
+    - country: 6
+      meaning: normale Person
+    - country: 9
+      meaning: persona normale
+    - country: 11
+      meaning: pessoa normal
+    - country: 12
+      meaning: "\u043D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u044B\u0439 \u0447\u0435\u043B\u043E\u0432\u0435\u043A"
+    - country: 13
+      meaning: persona normal
+    - country: 14
+      meaning: normal insan
+  - word: normal
+    wordTranslation:
+    - country: 1
+      meaning: "\u666E\u901A\u7684"
+    - country: 3
+      meaning: normal
+    - country: 5
+      meaning: normale
+    - country: 6
+      meaning: normal
+    - country: 9
+      meaning: normale
+    - country: 11
+      meaning: normal
+    - country: 12
+      meaning: "\u043D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u044B\u0439"
+    - country: 13
+      meaning: normal
+    - country: 14
+      meaning: normal
+  - word: hard
+    wordTranslation:
+    - country: 1
+      meaning: "\u96BE\u7684"
+    - country: 3
+      meaning: hard
+    - country: 5
+      meaning: dur
+    - country: 6
+      meaning: hart
+    - country: 9
+      meaning: difficile
+    - country: 11
+      meaning: duro
+    - country: 12
+      meaning: "\u0436\u0435\u0441\u0442\u043A\u0438\u0439"
+    - country: 13
+      meaning: duro
+    - country: 14
+      meaning: zor
+  - word: bgm
+    wordTranslation:
+    - country: 1
+      meaning: "\u80CC\u666F\u97F3\u4E50"
+    - country: 3
+      meaning: bgm
+    - country: 5
+      meaning: bgm
+    - country: 6
+      meaning: bgm
+    - country: 9
+      meaning: bgm
+    - country: 11
+      meaning: bgm
+    - country: 12
+      meaning: "\u0444\u043E\u043D\u043E\u0432\u0430\u044F \u043C\u0443\u0437\u044B\u043A\u0430"
+    - country: 13
+      meaning: bgm
+    - country: 14
+      meaning: bgm
+  - word: easy
+    wordTranslation:
+    - country: 1
+      meaning: "\u7B80\u5355\u7684"
+    - country: 3
+      meaning: easy
+    - country: 5
+      meaning: facile
+    - country: 6
+      meaning: einfach
+    - country: 9
+      meaning: facile
+    - country: 11
+      meaning: "f\xE1cil"
+    - country: 12
+      meaning: "\u043B\u0435\u0433\u043A\u0438\u0439"
+    - country: 13
+      meaning: "f\xE1cil"
+    - country: 14
+      meaning: kolay
+  data:
+  - translatedTo: 31338
+    word: close
+  - translatedTo: 31338
+    word: hint
+  - translatedTo: 31338
+    word: more detailed hints
+  - translatedTo: 31338
+    word: setting
+  - translatedTo: 31338
+    word: start
+  - translatedTo: 31338
+    word: ending
+  - translatedTo: 31338
+    word: sound effect
+  - translatedTo: 31338
+    word: credits
+  - translatedTo: 31338
+    word: exit
+  - translatedTo: 31338
+    word: a kind person who speaks kind words easily
+  - translatedTo: 10
+    word: rainbow character on
+  - translatedTo: 31338
+    word: an unkind person who finds it difficult to say nice things
+  - translatedTo: 31338
+    word: normal person
+  - translatedTo: 31338
+    word: normal
+  - translatedTo: 31338
+    word: hard
+  - translatedTo: 31338
+    word: bgm
+  - translatedTo: 31338
+    word: easy
+  successfullDownloaded: 17
+  sourceLanguage: 3
